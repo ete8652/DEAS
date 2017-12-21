@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8108F821FEA70B9008B46C9 /* ko.png in Resources */ = {isa = PBXBuildFile; fileRef = A8108F811FEA7019008B46C9 /* ko.png */; };
+		A8108FC41FEA9F18008B46C9 /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8108FC21FEA9F18008B46C9 /* ShowViewController.m */; };
+		A8108FC61FEA9FFF008B46C9 /* ShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8108FC81FEA9FFF008B46C9 /* ShowViewController.xib */; };
+		A8108FF11FEAAB09008B46C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8108FF31FEAAB09008B46C9 /* InfoPlist.strings */; };
+		A810901D1FEAB1F0008B46C9 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A810901A1FEAB1D0008B46C9 /* GCDAsyncSocket.m */; };
+		A810901E1FEAB1F2008B46C9 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A810901C1FEAB1D0008B46C9 /* GCDAsyncUdpSocket.m */; };
 		A8BBB6AA1FE975BA00C07880 /* AppDelegate+Combination.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBB6A81FE975B900C07880 /* AppDelegate+Combination.m */; };
 		A8BBB6DF1FE976B800C07880 /* LanboSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBB6D41FE9767000C07880 /* LanboSingle.m */; };
 		A8BBB6E01FE976B800C07880 /* SilverSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBB6D81FE9767000C07880 /* SilverSingle.m */; };
-		A8BBB6E11FE976B800C07880 /* StatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBB6DA1FE9767000C07880 /* StatusBarView.m */; };
-		A8BBB6E21FE976B800C07880 /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBB6DD1FE9767000C07880 /* SwitchViewController.m */; };
+		A8BBB6E21FE976B800C07880 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBB6DD1FE9767000C07880 /* ListViewController.m */; };
 		A8BBB6E31FE976B800C07880 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBB6AE1FE9765C00C07880 /* AFHTTPSessionManager.m */; };
 		A8BBB6E41FE976B800C07880 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBB6B11FE9765C00C07880 /* AFNetworkReachabilityManager.m */; };
 		A8BBB6E51FE976B800C07880 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBB6B31FE9765C00C07880 /* AFSecurityPolicy.m */; };
@@ -27,7 +32,6 @@
 		A8BBB6EF1FE976C100C07880 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBB6CC1FE9765C00C07880 /* UIProgressView+AFNetworking.m */; };
 		A8BBB6F01FE976C100C07880 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBB6CE1FE9765C00C07880 /* UIRefreshControl+AFNetworking.m */; };
 		A8BBB6F11FE976C100C07880 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BBB6D01FE9765C00C07880 /* UIWebView+AFNetworking.m */; };
-		A8BBB6F21FE976D100C07880 /* StatusBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8BBB6DB1FE9767000C07880 /* StatusBarView.xib */; };
 		D93B98651FE3A2D00082930D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D93B98641FE3A2D00082930D /* Podfile */; };
 		D93B98681FE3A82D0082930D /* GGHostListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B98671FE3A82D0082930D /* GGHostListTableViewController.m */; };
 		D93B986B1FE3C7080082930D /* GGPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B986A1FE3C7080082930D /* GGPacket.m */; };
@@ -72,6 +76,83 @@
 /* Begin PBXFileReference section */
 		1F7E9669E1F856064597FB6A /* Pods-WuziQiGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuziQiGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WuziQiGame/Pods-WuziQiGame.debug.xcconfig"; sourceTree = "<group>"; };
 		353FEF1B7B3979E1BA3BD560 /* Pods_WuziQiGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WuziQiGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8108F811FEA7019008B46C9 /* ko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ko.png; sourceTree = "<group>"; };
+		A8108F831FEA846A008B46C9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		A8108F841FEA846A008B46C9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A8108F851FEA846D008B46C9 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		A8108F861FEA846D008B46C9 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A8108F871FEA8470008B46C9 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		A8108F881FEA8470008B46C9 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A8108F891FEA8478008B46C9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		A8108F8A1FEA8478008B46C9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A8108F8B1FEA847A008B46C9 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		A8108F8C1FEA847A008B46C9 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A8108F911FEA8488008B46C9 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main.strings; sourceTree = "<group>"; };
+		A8108F921FEA8488008B46C9 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A8108F931FEA848C008B46C9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		A8108F941FEA848C008B46C9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A8108F971FEA8494008B46C9 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		A8108F981FEA8494008B46C9 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A8108F9B1FEA849B008B46C9 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
+		A8108F9C1FEA849B008B46C9 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A8108F9F1FEA84D2008B46C9 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Main.strings; sourceTree = "<group>"; };
+		A8108FA01FEA84D2008B46C9 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A8108FA31FEA84D8008B46C9 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Main.strings; sourceTree = "<group>"; };
+		A8108FA41FEA84D8008B46C9 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A8108FA51FEA84DB008B46C9 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Main.strings; sourceTree = "<group>"; };
+		A8108FA61FEA84DB008B46C9 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A8108FAD1FEA84F6008B46C9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		A8108FAE1FEA84F6008B46C9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A8108FB31FEA8504008B46C9 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Main.strings; sourceTree = "<group>"; };
+		A8108FB41FEA8504008B46C9 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A8108FB51FEA8507008B46C9 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
+		A8108FB61FEA8507008B46C9 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A8108FBD1FEA95D1008B46C9 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
+		A8108FBE1FEA95D1008B46C9 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A8108FBF1FEA97C1008B46C9 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Main.strings; sourceTree = "<group>"; };
+		A8108FC01FEA97C1008B46C9 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A8108FC11FEA9F18008B46C9 /* ShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		A8108FC21FEA9F18008B46C9 /* ShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
+		A8108FC71FEA9FFF008B46C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ShowViewController.xib; sourceTree = "<group>"; };
+		A8108FCA1FEAA003008B46C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShowViewController.strings; sourceTree = "<group>"; };
+		A8108FCC1FEAA00A008B46C9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/ShowViewController.strings; sourceTree = "<group>"; };
+		A8108FCE1FEAA00B008B46C9 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/ShowViewController.strings; sourceTree = "<group>"; };
+		A8108FD01FEAA00C008B46C9 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/ShowViewController.strings; sourceTree = "<group>"; };
+		A8108FD21FEAA00D008B46C9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ShowViewController.strings"; sourceTree = "<group>"; };
+		A8108FD41FEAA010008B46C9 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/ShowViewController.strings; sourceTree = "<group>"; };
+		A8108FD81FEAA04D008B46C9 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/ShowViewController.strings; sourceTree = "<group>"; };
+		A8108FDA1FEAA050008B46C9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/ShowViewController.strings; sourceTree = "<group>"; };
+		A8108FDC1FEAA053008B46C9 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/ShowViewController.strings; sourceTree = "<group>"; };
+		A8108FE01FEAA056008B46C9 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/ShowViewController.strings; sourceTree = "<group>"; };
+		A8108FE41FEAA05A008B46C9 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/ShowViewController.strings; sourceTree = "<group>"; };
+		A8108FE81FEAA062008B46C9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/ShowViewController.strings; sourceTree = "<group>"; };
+		A8108FEB1FEAAA84008B46C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		A8108FF21FEAAB09008B46C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8108FF41FEAAB0C008B46C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8108FF51FEAAB0E008B46C9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8108FF61FEAAB0F008B46C9 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8108FF71FEAAB10008B46C9 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8108FF81FEAAB11008B46C9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		A8108FF91FEAAB3F008B46C9 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8108FFA1FEAAB3F008B46C9 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8108FFC1FEAAB42008B46C9 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8108FFD1FEAAB43008B46C9 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A81090011FEAAB46008B46C9 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A81090021FEAAB47008B46C9 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A81090051FEAAB49008B46C9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A81090091FEAAB4C008B46C9 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A810900A1FEAAB4D008B46C9 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A810900C1FEAAB4E008B46C9 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A810900E1FEAAB51008B46C9 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A81090101FEAAB53008B46C9 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A81090121FEAAB57008B46C9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A81090131FEAAFD0008B46C9 /* WuziQiGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WuziQiGame.entitlements; sourceTree = "<group>"; };
+		A81090151FEAB1D0008B46C9 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		A81090161FEAB1D0008B46C9 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		A81090191FEAB1D0008B46C9 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		A810901A1FEAB1D0008B46C9 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		A810901B1FEAB1D0008B46C9 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		A810901C1FEAB1D0008B46C9 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		A8BBB6A81FE975B900C07880 /* AppDelegate+Combination.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Combination.m"; sourceTree = "<group>"; };
 		A8BBB6A91FE975BA00C07880 /* AppDelegate+Combination.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Combination.h"; sourceTree = "<group>"; };
 		A8BBB6AD1FE9765C00C07880 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
@@ -115,11 +196,8 @@
 		A8BBB6D51FE9767000C07880 /* Marco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Marco.h; sourceTree = "<group>"; };
 		A8BBB6D71FE9767000C07880 /* SilverSingle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SilverSingle.h; sourceTree = "<group>"; };
 		A8BBB6D81FE9767000C07880 /* SilverSingle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SilverSingle.m; sourceTree = "<group>"; };
-		A8BBB6D91FE9767000C07880 /* StatusBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusBarView.h; sourceTree = "<group>"; };
-		A8BBB6DA1FE9767000C07880 /* StatusBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusBarView.m; sourceTree = "<group>"; };
-		A8BBB6DB1FE9767000C07880 /* StatusBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatusBarView.xib; sourceTree = "<group>"; };
-		A8BBB6DC1FE9767000C07880 /* SwitchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchViewController.h; sourceTree = "<group>"; };
-		A8BBB6DD1FE9767000C07880 /* SwitchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchViewController.m; sourceTree = "<group>"; };
+		A8BBB6DC1FE9767000C07880 /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		A8BBB6DD1FE9767000C07880 /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		A8BBB6DE1FE9767000C07880 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
 		A8BBB6F41FE977A700C07880 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C37A22A48C7AF45D025E5079 /* Pods-WuziQiGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuziQiGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-WuziQiGame/Pods-WuziQiGame.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,7 +214,6 @@
 		D9E55F6B1FE1492600F8EE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9E55F6D1FE1492600F8EE2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9E55F701FE1492600F8EE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D9E55F721FE1492600F8EE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9E55F731FE1492600F8EE2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9E55F791FE1492600F8EE2A /* WuziQiGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WuziQiGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E55F7D1FE1492600F8EE2A /* WuziQiGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WuziQiGameTests.m; sourceTree = "<group>"; };
@@ -207,6 +284,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A81090141FEAB1D0008B46C9 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				A81090151FEAB1D0008B46C9 /* LICENSE.txt */,
+				A81090161FEAB1D0008B46C9 /* README.markdown */,
+				A81090171FEAB1D0008B46C9 /* Source */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		A81090171FEAB1D0008B46C9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A81090181FEAB1D0008B46C9 /* GCD */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A81090181FEAB1D0008B46C9 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				A81090191FEAB1D0008B46C9 /* GCDAsyncSocket.h */,
+				A810901A1FEAB1D0008B46C9 /* GCDAsyncSocket.m */,
+				A810901B1FEAB1D0008B46C9 /* GCDAsyncUdpSocket.h */,
+				A810901C1FEAB1D0008B46C9 /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
 		A8BBB6AB1FE9765C00C07880 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,11 +379,8 @@
 				A8BBB6D41FE9767000C07880 /* LanboSingle.m */,
 				A8BBB6D51FE9767000C07880 /* Marco.h */,
 				A8BBB6D61FE9767000C07880 /* Silver */,
-				A8BBB6D91FE9767000C07880 /* StatusBarView.h */,
-				A8BBB6DA1FE9767000C07880 /* StatusBarView.m */,
-				A8BBB6DB1FE9767000C07880 /* StatusBarView.xib */,
-				A8BBB6DC1FE9767000C07880 /* SwitchViewController.h */,
-				A8BBB6DD1FE9767000C07880 /* SwitchViewController.m */,
+				A8BBB6DC1FE9767000C07880 /* ListViewController.h */,
+				A8BBB6DD1FE9767000C07880 /* ListViewController.m */,
 				A8BBB6DE1FE9767000C07880 /* UtilsMacro.h */,
 			);
 			path = Macro;
@@ -295,6 +398,7 @@
 		D9E55F581FE1492600F8EE2A = {
 			isa = PBXGroup;
 			children = (
+				A8108F811FEA7019008B46C9 /* ko.png */,
 				D93B98641FE3A2D00082930D /* Podfile */,
 				D9E55F631FE1492600F8EE2A /* WuziQiGame */,
 				D9E55F7C1FE1492600F8EE2A /* WuziQiGameTests */,
@@ -318,6 +422,8 @@
 		D9E55F631FE1492600F8EE2A /* WuziQiGame */ = {
 			isa = PBXGroup;
 			children = (
+				A81090131FEAAFD0008B46C9 /* WuziQiGame.entitlements */,
+				A81090141FEAB1D0008B46C9 /* CocoaAsyncSocket */,
 				A8BBB6D11FE9767000C07880 /* Macro */,
 				A8BBB6AB1FE9765C00C07880 /* AFNetworking */,
 				D9E55FA71FE197F000F8EE2A /* model */,
@@ -329,7 +435,8 @@
 				D9E55F6A1FE1492600F8EE2A /* Main.storyboard */,
 				D9E55F6D1FE1492600F8EE2A /* Assets.xcassets */,
 				D9E55F6F1FE1492600F8EE2A /* LaunchScreen.storyboard */,
-				D9E55F721FE1492600F8EE2A /* Info.plist */,
+				A8108FEC1FEAAA84008B46C9 /* Info.plist */,
+				A8108FF31FEAAB09008B46C9 /* InfoPlist.strings */,
 				D9E55F731FE1492600F8EE2A /* main.m */,
 			);
 			path = WuziQiGame;
@@ -366,6 +473,9 @@
 				D9E55FA51FE1687A00F8EE2A /* CGBroadViewController.m */,
 				D93B98661FE3A82D0082930D /* GGHostListTableViewController.h */,
 				D93B98671FE3A82D0082930D /* GGHostListTableViewController.m */,
+				A8108FC11FEA9F18008B46C9 /* ShowViewController.h */,
+				A8108FC21FEA9F18008B46C9 /* ShowViewController.m */,
+				A8108FC81FEA9FFF008B46C9 /* ShowViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -487,6 +597,11 @@
 					D9E55F601FE1492600F8EE2A = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					D9E55F781FE1492600F8EE2A = {
 						CreatedOnToolsVersion = 9.2;
@@ -507,6 +622,23 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				de,
+				es,
+				"zh-Hans",
+				it,
+				cs,
+				ja,
+				th,
+				ko,
+				nl,
+				ru,
+				id,
+				vi,
+				uk,
+				he,
+				ca,
+				fi,
 			);
 			mainGroup = D9E55F581FE1492600F8EE2A;
 			productRefGroup = D9E55F621FE1492600F8EE2A /* Products */;
@@ -525,13 +657,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8BBB6F21FE976D100C07880 /* StatusBarView.xib in Resources */,
 				D93B98651FE3A2D00082930D /* Podfile in Resources */,
 				D9E55F9F1FE154E100F8EE2A /* music.mp3 in Resources */,
+				A8108F821FEA70B9008B46C9 /* ko.png in Resources */,
 				D9E55F711FE1492600F8EE2A /* LaunchScreen.storyboard in Resources */,
 				D9E55F6E1FE1492600F8EE2A /* Assets.xcassets in Resources */,
 				D9E55F6C1FE1492600F8EE2A /* Main.storyboard in Resources */,
+				A8108FC61FEA9FFF008B46C9 /* ShowViewController.xib in Resources */,
 				D9E55F9E1FE154E100F8EE2A /* move.wav in Resources */,
+				A8108FF11FEAAB09008B46C9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,7 +719,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		80E36ADD12F714B952A875B7 /* [CP] Copy Pods Resources */ = {
@@ -621,12 +755,12 @@
 				A8BBB6F11FE976C100C07880 /* UIWebView+AFNetworking.m in Sources */,
 				A8BBB6DF1FE976B800C07880 /* LanboSingle.m in Sources */,
 				A8BBB6E01FE976B800C07880 /* SilverSingle.m in Sources */,
-				A8BBB6E11FE976B800C07880 /* StatusBarView.m in Sources */,
-				A8BBB6E21FE976B800C07880 /* SwitchViewController.m in Sources */,
+				A8BBB6E21FE976B800C07880 /* ListViewController.m in Sources */,
 				A8BBB6E31FE976B800C07880 /* AFHTTPSessionManager.m in Sources */,
 				A8BBB6E41FE976B800C07880 /* AFNetworkReachabilityManager.m in Sources */,
 				A8BBB6E51FE976B800C07880 /* AFSecurityPolicy.m in Sources */,
 				A8BBB6E61FE976B800C07880 /* AFURLRequestSerialization.m in Sources */,
+				A8108FC41FEA9F18008B46C9 /* ShowViewController.m in Sources */,
 				A8BBB6E71FE976B800C07880 /* AFURLResponseSerialization.m in Sources */,
 				A8BBB6E81FE976B800C07880 /* AFURLSessionManager.m in Sources */,
 				D9E55FAF1FE1A4DA00F8EE2A /* GGMove.m in Sources */,
@@ -635,7 +769,9 @@
 				D9E55F691FE1492600F8EE2A /* ViewController.m in Sources */,
 				D9E55FB91FE229BB00F8EE2A /* GGMiniMaxAI.m in Sources */,
 				D9E55FA61FE1687A00F8EE2A /* CGBroadViewController.m in Sources */,
+				A810901D1FEAB1F0008B46C9 /* GCDAsyncSocket.m in Sources */,
 				A8BBB6AA1FE975BA00C07880 /* AppDelegate+Combination.m in Sources */,
+				A810901E1FEAB1F2008B46C9 /* GCDAsyncUdpSocket.m in Sources */,
 				D9E55FAB1FE1A2B400F8EE2A /* CGBoard.m in Sources */,
 				D9E55F741FE1492600F8EE2A /* main.m in Sources */,
 				D93B986B1FE3C7080082930D /* GGPacket.m in Sources */,
@@ -678,10 +814,81 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A8108FC81FEA9FFF008B46C9 /* ShowViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8108FC71FEA9FFF008B46C9 /* Base */,
+				A8108FCA1FEAA003008B46C9 /* en */,
+				A8108FCC1FEAA00A008B46C9 /* fr */,
+				A8108FCE1FEAA00B008B46C9 /* de */,
+				A8108FD01FEAA00C008B46C9 /* es */,
+				A8108FD21FEAA00D008B46C9 /* zh-Hans */,
+				A8108FD41FEAA010008B46C9 /* it */,
+				A8108FD81FEAA04D008B46C9 /* cs */,
+				A8108FDA1FEAA050008B46C9 /* ja */,
+				A8108FDC1FEAA053008B46C9 /* th */,
+				A8108FE01FEAA056008B46C9 /* ko */,
+				A8108FE41FEAA05A008B46C9 /* nl */,
+				A8108FE81FEAA062008B46C9 /* ru */,
+			);
+			name = ShowViewController.xib;
+			sourceTree = "<group>";
+		};
+		A8108FEC1FEAAA84008B46C9 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8108FEB1FEAAA84008B46C9 /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		A8108FF31FEAAB09008B46C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8108FF21FEAAB09008B46C9 /* en */,
+				A8108FF41FEAAB0C008B46C9 /* Base */,
+				A8108FF51FEAAB0E008B46C9 /* fr */,
+				A8108FF61FEAAB0F008B46C9 /* de */,
+				A8108FF71FEAAB10008B46C9 /* es */,
+				A8108FF81FEAAB11008B46C9 /* zh-Hans */,
+				A8108FF91FEAAB3F008B46C9 /* it */,
+				A8108FFA1FEAAB3F008B46C9 /* cs */,
+				A8108FFC1FEAAB42008B46C9 /* id */,
+				A8108FFD1FEAAB43008B46C9 /* vi */,
+				A81090011FEAAB46008B46C9 /* uk */,
+				A81090021FEAAB47008B46C9 /* he */,
+				A81090051FEAAB49008B46C9 /* ru */,
+				A81090091FEAAB4C008B46C9 /* th */,
+				A810900A1FEAAB4D008B46C9 /* ca */,
+				A810900C1FEAAB4E008B46C9 /* fi */,
+				A810900E1FEAAB51008B46C9 /* nl */,
+				A81090101FEAAB53008B46C9 /* ko */,
+				A81090121FEAAB57008B46C9 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		D9E55F6A1FE1492600F8EE2A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D9E55F6B1FE1492600F8EE2A /* Base */,
+				A8108F831FEA846A008B46C9 /* fr */,
+				A8108F851FEA846D008B46C9 /* de */,
+				A8108F871FEA8470008B46C9 /* es */,
+				A8108F891FEA8478008B46C9 /* zh-Hans */,
+				A8108F8B1FEA847A008B46C9 /* it */,
+				A8108F911FEA8488008B46C9 /* cs */,
+				A8108F931FEA848C008B46C9 /* ja */,
+				A8108F971FEA8494008B46C9 /* ko */,
+				A8108F9B1FEA849B008B46C9 /* nl */,
+				A8108F9F1FEA84D2008B46C9 /* fi */,
+				A8108FA31FEA84D8008B46C9 /* ca */,
+				A8108FA51FEA84DB008B46C9 /* th */,
+				A8108FAD1FEA84F6008B46C9 /* ru */,
+				A8108FB31FEA8504008B46C9 /* he */,
+				A8108FB51FEA8507008B46C9 /* uk */,
+				A8108FBD1FEA95D1008B46C9 /* vi */,
+				A8108FBF1FEA97C1008B46C9 /* id */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -690,6 +897,23 @@
 			isa = PBXVariantGroup;
 			children = (
 				D9E55F701FE1492600F8EE2A /* Base */,
+				A8108F841FEA846A008B46C9 /* fr */,
+				A8108F861FEA846D008B46C9 /* de */,
+				A8108F881FEA8470008B46C9 /* es */,
+				A8108F8A1FEA8478008B46C9 /* zh-Hans */,
+				A8108F8C1FEA847A008B46C9 /* it */,
+				A8108F921FEA8488008B46C9 /* cs */,
+				A8108F941FEA848C008B46C9 /* ja */,
+				A8108F981FEA8494008B46C9 /* ko */,
+				A8108F9C1FEA849B008B46C9 /* nl */,
+				A8108FA01FEA84D2008B46C9 /* fi */,
+				A8108FA41FEA84D8008B46C9 /* ca */,
+				A8108FA61FEA84DB008B46C9 /* th */,
+				A8108FAE1FEA84F6008B46C9 /* ru */,
+				A8108FB41FEA8504008B46C9 /* he */,
+				A8108FB61FEA8507008B46C9 /* uk */,
+				A8108FBE1FEA95D1008B46C9 /* vi */,
+				A8108FC01FEA97C1008B46C9 /* id */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -701,6 +925,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -756,6 +981,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -806,15 +1032,19 @@
 			baseConfigurationReference = 1F7E9669E1F856064597FB6A /* Pods-WuziQiGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WuziQiGame/WuziQiGame.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 86GWP3RQ45;
+				DEVELOPMENT_TEAM = V6867QRBP4;
 				GCC_PREFIX_HEADER = WuziQiGame/view/PrefixHeader.pch;
-				INFOPLIST_FILE = WuziQiGame/Info.plist;
+				INFOPLIST_FILE = WuziQiGame/Base.lproj/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lxm.JiaGeXian4iPhone;
+				PRODUCT_BUNDLE_IDENTIFIER = InternationalChessTop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -823,15 +1053,19 @@
 			baseConfigurationReference = C37A22A48C7AF45D025E5079 /* Pods-WuziQiGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WuziQiGame/WuziQiGame.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 86GWP3RQ45;
+				DEVELOPMENT_TEAM = V6867QRBP4;
 				GCC_PREFIX_HEADER = WuziQiGame/view/PrefixHeader.pch;
-				INFOPLIST_FILE = WuziQiGame/Info.plist;
+				INFOPLIST_FILE = WuziQiGame/Base.lproj/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lxm.JiaGeXian4iPhone;
+				PRODUCT_BUNDLE_IDENTIFIER = InternationalChessTop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

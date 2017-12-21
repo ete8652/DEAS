@@ -11,7 +11,6 @@
 #import "ViewController.h"
 #import "GGHostListTableViewController.h"
 #import "GGPacket.h"
-@import CocoaAsyncSocket;
 
 NSString * const INFO_YOUR_TURN = @"您的回合";
 NSString * const INFO_OPPONENT_TURN = @"对方回合";
@@ -306,13 +305,13 @@ NSString * const INFO_OPPONENT_TURN = @"对方回合";
     }
 }
 - (void)choosePlayerType{
-    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"请选择先后手" message:@"" preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction* actionBlack = [UIAlertAction actionWithTitle:@"先手" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Please select offensive position or defensive position" message:@"" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction* actionBlack = [UIAlertAction actionWithTitle:@"Offensive Position" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         [self startTimer];
         AI = [[GGPlayer alloc] initWithPlayer:GGPlayerTypeWhite difficulty:GGDifficultyEasy];
         _lblInformation.text = INFO_YOUR_TURN;
     }];
-    UIAlertAction* actionWhite = [UIAlertAction actionWithTitle:@"后手" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    UIAlertAction* actionWhite = [UIAlertAction actionWithTitle:@"Defensive Position" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         [self startTimer];
         AI = [[GGPlayer alloc] initWithPlayer:GGPlayerTypeBlack difficulty:GGDifficultyEasy];
         [self AIPlayWithMove:nil];
@@ -325,13 +324,13 @@ NSString * const INFO_OPPONENT_TURN = @"对方回合";
 -(void) handleWin{
     NSString *alertTitle;
     if (playerType == GGPlayerTypeBlack) {
-        alertTitle = @"黑方获胜!";
+        alertTitle = @"Black Win!";
     } else {
-        alertTitle = @"白方获胜!";
+        alertTitle = @"White Win!";
     }
     [self dismissAlertControllers];
     self.winAlertController = [UIAlertController alertControllerWithTitle:alertTitle message:@"" preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *action = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleDefault handler:nil];
+    UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
     [_winAlertController addAction:action];
     [self presentViewController:_winAlertController animated:YES completion:nil];
     _broadView.userInteractionEnabled = NO;

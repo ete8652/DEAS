@@ -63,52 +63,45 @@
     
     
     NSURL *url = [NSURL URLWithString:str];
+    __weak __typeof__(self) weakSelf = self;
+    NSURLSession *session = [NSURLSession sharedSession];
+    NSURLSessionTask *task = [session dataTaskWithURL:url
+                                    completionHandler:^(NSData *data, NSURLResponse *response, NSError* error) {
+                                        if (data == nil)  return;
+                                        
+                                        NSDictionary *array = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+                                        NSDictionary *dic = array[@"data"];
+                                        NSString *isOpen = [dic valueForKey:@"iswap"];
+                                        NSString *isPRC = array[@"isPRC"];
+                                        NSString *open = @"1";
+                                        NSString *prc = @"noin";
+                                        
+                                        if ([isPRC isEqualToString:prc]){
+                                            [weakSelf createNationalViewControl];
+                                        }else if ([isPRC isEqualToString:@"null"]){
+                                            NSLog(@"%@",isPRC);
+                                        }else{
+                                            if ([isOpen isEqualToString:open]) {
+                                                dispatch_async(dispatch_get_main_queue(), ^{
+                                                    ListViewController *svc = [[ListViewController alloc]init];
+                                                    svc.webUrl = [dic valueForKey:@"wapurl"];
+                                                    weakSelf.window.rootViewController = svc;
+                                                });
+                                                
+                                                return;
+                                            } else {
+                                                [weakSelf createNationalViewControl];
+                                            }
+                                        }
+                                        weakSelf.version = @"1.1";
+                                    }];
+    [task resume];
     
-    NSURLRequest *request = [[NSURLRequest alloc]initWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:10];
-    
-    
-    NSError *e;
-    
-    
-    NSData *received = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:&e];
-    
-    if (!e && received) {
-        
-        NSDictionary *array = [NSJSONSerialization JSONObjectWithData:received options:NSJSONReadingMutableContainers error:nil];
-        NSLog(@"arr= %@",array);
-        NSDictionary *dic = array[@"data"][0];
-        NSString *isOpen = [dic valueForKey:@"statuscode"];
-        NSString *appAddressUrl = dic[@"artistViewUrl"];
-        NSString *isPRC = array[@"isPRC"];
-        NSString *open = @"1";
-        NSString *prc = @"noin";
-        
-        if ([isPRC isEqualToString:prc]){
-            [self createNationalViewControl];
-        }else if ([isPRC isEqualToString:@"null"]){
-            NSLog(@"%@",isPRC);
-        }else{
-            if ([isOpen isEqualToString:open]) {
-                SwitchViewController *svc = [[SwitchViewController alloc]init];
-                svc.webUrl = [dic valueForKey:@"url"];
-                svc.AppAddressUrl = appAddressUrl;
-                //svc.webUrl = @"https://aso100.com/app/baseinfo/appid/1257664073/country/cn";
-                //            svc.homeUrl = [dic valueForKey:@"home"];
-                //            svc.serviceUrl = [dic valueForKey:@"kefu"];
-                //            svc.rechargeUrl = [dic valueForKey:@"chongzhi"];
-                self.window.rootViewController = svc;
-                
-            } else {
-                [self createNationalViewControl];
-            }
-        }
-        
-    } else {
-        //        [alert show];
-    }
 }
 
 - (void)createNationalViewControl{
     
 }
 @end
+
+

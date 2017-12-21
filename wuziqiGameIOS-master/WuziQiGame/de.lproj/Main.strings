@@ -1,0 +1,63 @@
+
+/* Class = "UINavigationItem"; title = "主机列表"; ObjectID = "0io-J7-gjF"; */
+"0io-J7-gjF.title" = "主机列表";
+
+/* Class = "UILabel"; text = "Music"; ObjectID = "36P-4r-txv"; */
+"36P-4r-txv.text" = "Music";
+
+/* Class = "UILabel"; text = "Sound Effect"; ObjectID = "4bd-dL-PJh"; */
+"4bd-dL-PJh.text" = "Sound Effect";
+
+/* Class = "UIBarButtonItem"; title = "返回"; ObjectID = "58F-jr-yN4"; */
+"58F-jr-yN4.title" = "返回";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "7FJ-pI-ahE"; */
+"7FJ-pI-ahE.normalTitle" = "Back";
+
+/* Class = "UIButton"; highlightedTitle = "联机游戏"; ObjectID = "8oQ-NT-fkA"; */
+"8oQ-NT-fkA.highlightedTitle" = "联机游戏";
+
+/* Class = "UIButton"; normalTitle = "Online Game"; ObjectID = "8oQ-NT-fkA"; */
+"8oQ-NT-fkA.normalTitle" = "Online Game";
+
+/* Class = "UILabel"; text = "Difficulty"; ObjectID = "9a2-Q1-ZOa"; */
+"9a2-Q1-ZOa.text" = "Difficulty";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "B5L-w5-Hfk"; */
+"B5L-w5-Hfk.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Game Setting"; ObjectID = "Cq0-gR-NLe"; */
+"Cq0-gR-NLe.normalTitle" = "Game Setting";
+
+/* Class = "UIButton"; normalTitle = "Single Game"; ObjectID = "GQt-bt-8CH"; */
+"GQt-bt-8CH.normalTitle" = "Single Game";
+
+/* Class = "UIButton"; normalTitle = "Back Button"; ObjectID = "LQv-mQ-Uch"; */
+"LQv-mQ-Uch.normalTitle" = "Back Button";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "XGl-GQ-Vug"; */
+"XGl-GQ-Vug.text" = "00:00";
+
+/* Class = "UIBarButtonItem"; title = "新建游戏"; ObjectID = "a5e-jm-K3p"; */
+"a5e-jm-K3p.title" = "新建游戏";
+
+/* Class = "UIButton"; normalTitle = "Restart"; ObjectID = "dGP-Ur-oeA"; */
+"dGP-Ur-oeA.normalTitle" = "Restart";
+
+/* Class = "UISegmentedControl"; dWd-a2-ONk.segmentTitles[0] = "简单"; ObjectID = "dWd-a2-ONk"; */
+"dWd-a2-ONk.segmentTitles[0]" = "简单";
+
+/* Class = "UISegmentedControl"; dWd-a2-ONk.segmentTitles[1] = "中等"; ObjectID = "dWd-a2-ONk"; */
+"dWd-a2-ONk.segmentTitles[1]" = "中等";
+
+/* Class = "UISegmentedControl"; dWd-a2-ONk.segmentTitles[2] = "困难"; ObjectID = "dWd-a2-ONk"; */
+"dWd-a2-ONk.segmentTitles[2]" = "困难";
+
+/* Class = "UIButton"; normalTitle = "Back Move"; ObjectID = "iFC-WX-9z0"; */
+"iFC-WX-9z0.normalTitle" = "Back Move";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "mjN-ej-X1c"; */
+"mjN-ej-X1c.text" = "00:00";
+
+/* Class = "UIButton"; normalTitle = "Multiplayer Game"; ObjectID = "yO2-jI-iJD"; */
+"yO2-jI-iJD.normalTitle" = "Multiplayer Game";

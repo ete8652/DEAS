@@ -28,10 +28,11 @@
                                     <constraint firstAttribute="height" constant="50" id="OkX-5T-ibC"/>
                                     <constraint firstAttribute="width" constant="160" id="hum-AD-7TE"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Online Game">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" title="联机游戏" image="LANGame_highlighted"/>
+                                <state key="highlighted" title="联机游戏"/>
                                 <connections>
                                     <action selector="LANGame_btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZLu-1b-63e"/>
                                 </connections>
@@ -42,38 +43,38 @@
                                     <constraint firstAttribute="height" constant="50" id="Sab-wD-7fF"/>
                                     <constraint firstAttribute="width" constant="160" id="r4y-Yw-g6V"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Game Setting">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="settings_highlighted"/>
                                 <connections>
                                     <segue destination="kfA-xF-2Pd" kind="show" animates="NO" action="showDetailViewController:sender:" id="cTL-26-1E7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yO2-jI-iJD">
-                                <rect key="frame" x="107" y="200" width="160" height="50"/>
+                                <rect key="frame" x="72" y="200" width="230" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="WTx-Gz-obn"/>
-                                    <constraint firstAttribute="width" constant="160" id="n1V-vm-rb4"/>
+                                    <constraint firstAttribute="width" constant="230" id="n1V-vm-rb4"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Multiplayer Game">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="double_highlighted"/>
                                 <connections>
                                     <action selector="doubleGame_btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cTV-cz-pjW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQt-bt-8CH">
-                                <rect key="frame" x="107" y="100" width="160" height="50"/>
+                                <rect key="frame" x="97" y="100" width="180" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="160" id="Dpe-iR-uhG"/>
+                                    <constraint firstAttribute="width" constant="180" id="Dpe-iR-uhG"/>
                                     <constraint firstAttribute="height" constant="50" id="nai-3x-J8X"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Single Game">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="single_highlighted"/>
                                 <connections>
                                     <action selector="singleGame_btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gKP-Lb-VYe"/>
                                 </connections>
@@ -144,40 +145,49 @@
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Us1-iB-m6e" customClass="CGBroadView">
                                 <rect key="frame" x="0.0" y="156" width="375" height="375"/>
-                                <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.89208668469999997" green="0.91538620000000004" blue="0.93742614980000005" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Us1-iB-m6e" secondAttribute="height" multiplier="1:1" id="UKw-Ug-mLQ"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGP-Ur-oeA">
-                                <rect key="frame" x="62" y="556" width="50" height="25"/>
+                                <rect key="frame" x="7" y="556" width="80" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="0lb-0u-gmQ"/>
-                                    <constraint firstAttribute="width" constant="50" id="Jkp-Cv-xsc"/>
+                                    <constraint firstAttribute="width" constant="80" id="Jkp-Cv-xsc"/>
                                 </constraints>
-                                <state key="normal" image="reset"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Restart">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="onClick_btnReset:" destination="kdj-oo-Cdb" eventType="touchUpInside" id="5he-bo-6OA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFC-WX-9z0">
-                                <rect key="frame" x="162" y="556" width="50" height="25"/>
+                                <rect key="frame" x="137" y="556" width="100" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="bTq-rm-ovg"/>
-                                    <constraint firstAttribute="width" constant="50" id="d7J-8m-OWe"/>
+                                    <constraint firstAttribute="width" constant="100" id="d7J-8m-OWe"/>
                                 </constraints>
-                                <state key="normal" image="undo"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Back Move">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="onClick_btnUndo:" destination="kdj-oo-Cdb" eventType="touchUpInside" id="rYG-2e-Jej"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7FJ-pI-ahE">
-                                <rect key="frame" x="262" y="556" width="50" height="25"/>
+                                <rect key="frame" x="287" y="556" width="80" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="Ru6-7M-TyI"/>
-                                    <constraint firstAttribute="width" constant="50" id="r88-Kc-a5e"/>
+                                    <constraint firstAttribute="width" constant="80" id="r88-Kc-a5e"/>
                                 </constraints>
-                                <state key="normal" image="back"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="onBackClick:" destination="kdj-oo-Cdb" eventType="touchUpInside" id="e4i-e6-BUM"/>
                                 </connections>
@@ -302,14 +312,14 @@
                                     <action selector="soundSwitch:" destination="kfA-xF-2Pd" eventType="valueChanged" id="tST-Gu-jGK"/>
                                 </connections>
                             </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="音效" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bd-dL-PJh">
-                                <rect key="frame" x="70" y="378" width="49" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sound Effect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bd-dL-PJh">
+                                <rect key="frame" x="70" y="378" width="133.5" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="音乐" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36P-4r-txv">
-                                <rect key="frame" x="70" y="289" width="49" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36P-4r-txv">
+                                <rect key="frame" x="70" y="289" width="62.5" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -323,8 +333,8 @@
                                 </segments>
                                 <color key="tintColor" red="0.1333333333" green="0.43137254899999999" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
                             </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="难度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9a2-Q1-ZOa">
-                                <rect key="frame" x="70" y="152" width="49" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Difficulty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9a2-Q1-ZOa">
+                                <rect key="frame" x="70" y="152" width="93" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -337,12 +347,15 @@
                                 </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQv-mQ-Uch">
-                                <rect key="frame" x="149" y="496" width="76" height="40"/>
+                                <rect key="frame" x="112" y="496" width="150" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="0Rx-2E-p1O"/>
-                                    <constraint firstAttribute="width" constant="76" id="A3K-yf-daM"/>
+                                    <constraint firstAttribute="width" constant="150" id="A3K-yf-daM"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="back"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Back Button">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="back:" destination="kfA-xF-2Pd" eventType="touchUpInside" id="mC5-Ok-qad"/>
                                 </connections>
@@ -402,16 +415,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LANGame_highlighted" width="430" height="125"/>
-        <image name="back" width="210" height="105"/>
         <image name="background" width="930" height="1000"/>
         <image name="background2" width="1198" height="1472"/>
-        <image name="double_highlighted" width="430" height="125"/>
         <image name="piece_black" width="80" height="80"/>
         <image name="piece_white" width="80" height="80"/>
-        <image name="reset" width="210" height="105"/>
-        <image name="settings_highlighted" width="430" height="125"/>
-        <image name="single_highlighted" width="430" height="125"/>
-        <image name="undo" width="210" height="105"/>
     </resources>
 </document>

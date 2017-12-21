@@ -7,7 +7,6 @@
 //
 
 #import "GGHostListTableViewController.h"
-@import CocoaAsyncSocket;
 
 
 @interface GGHostListTableViewController ()<NSNetServiceBrowserDelegate,NSNetServiceDelegate,GCDAsyncSocketDelegate>
