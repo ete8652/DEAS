@@ -7,42 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D0156AD562EBA5DB77D568FDEC5C959 /* Pods-WuziQiGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC1670052BE0AF4B5A262CB92E54D22 /* Pods-WuziQiGame-dummy.m */; };
-		6E53A285666C98D2978621A969076BC8 /* Pods-WuziQiGame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98AE0BDB420C189F086C378DB613A9DD /* Pods-WuziQiGame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFCFEBD55B3AD306D0D6EC1383051407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5D06B0F6669C5308EE374CAA15DCE164 /* Pods-Multiplayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0619D2C1F2EBC07BF1D735664BC78029 /* Pods-Multiplayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9429A7681DF19F3C290C036E433FD47F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D90B5C798C193F65015F635DF09B2012 /* Pods-Multiplayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2E6542C2CB56DDC53AB5E6981E6F9E /* Pods-Multiplayer-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		015811495EE549EA5DF1700D73DFD7BC /* Pods_WuziQiGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WuziQiGame.framework; path = "Pods-WuziQiGame.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0619D2C1F2EBC07BF1D735664BC78029 /* Pods-Multiplayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Multiplayer-umbrella.h"; sourceTree = "<group>"; };
+		100DC70C477D875D95B4DEC02B7CB741 /* Pods-Multiplayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Multiplayer.modulemap"; sourceTree = "<group>"; };
+		1B54FA78022FA960E931C9E555E2FCBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		242C5D7B35F64FAF3ED2FDE90F96CF87 /* libjpush-ios-3.0.7.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.0.7.a"; sourceTree = "<group>"; };
-		2A0687CA214DEC58ED1B0E01D14FFF99 /* Pods-WuziQiGame-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WuziQiGame-acknowledgements.plist"; sourceTree = "<group>"; };
-		3DC1670052BE0AF4B5A262CB92E54D22 /* Pods-WuziQiGame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WuziQiGame-dummy.m"; sourceTree = "<group>"; };
-		424CA2A64F61BD0482CBA72570A0BC7F /* Pods-WuziQiGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WuziQiGame.release.xcconfig"; sourceTree = "<group>"; };
+		502985161FCAF7733E868D5969EB8184 /* Pods-Multiplayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Multiplayer.release.xcconfig"; sourceTree = "<group>"; };
+		5D2E6542C2CB56DDC53AB5E6981E6F9E /* Pods-Multiplayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Multiplayer-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6E48184355409AE6BD707AD569E35122 /* Pods-WuziQiGame-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WuziQiGame-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7F25DD4EE9E272ADC6593C3E753556BA /* Pods-WuziQiGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WuziQiGame.debug.xcconfig"; sourceTree = "<group>"; };
-		8C5C20A5349238DFC2C0B8C39B2EE22A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AEC21982141F47908E908695FBDF688 /* Pods_Multiplayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Multiplayer.framework; path = "Pods-Multiplayer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		813687983CF5A4C18A2EA0081EE286E3 /* Pods-Multiplayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Multiplayer.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98AE0BDB420C189F086C378DB613A9DD /* Pods-WuziQiGame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WuziQiGame-umbrella.h"; sourceTree = "<group>"; };
+		9E2641FC7E8500BCFA22F621964D002F /* Pods-Multiplayer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Multiplayer-frameworks.sh"; sourceTree = "<group>"; };
 		AD550296D449CF34FD8C7D07A5718274 /* libjcore-ios-1.1.6.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-1.1.6.a"; sourceTree = "<group>"; };
-		C38D6298FFA4A4235B27E2C4AFC0A2DF /* Pods-WuziQiGame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WuziQiGame.modulemap"; sourceTree = "<group>"; };
-		C59BBA12601440AF6F5789755405A81F /* Pods-WuziQiGame-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WuziQiGame-resources.sh"; sourceTree = "<group>"; };
-		C9A388F816544A43D6895A850A912228 /* Pods-WuziQiGame-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WuziQiGame-frameworks.sh"; sourceTree = "<group>"; };
+		B5D96A0AEC6E8134BC3270442798E2E6 /* Pods-Multiplayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Multiplayer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2A7E6CF15F85B60530B9B223DFD0FED /* Pods-Multiplayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Multiplayer-acknowledgements.plist"; sourceTree = "<group>"; };
 		F3FD59531FAA0921FFFF2D9907EAE2E4 /* JPUSHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		F711E0AA9B85E8FA58544FA8FA1CB07B /* Pods-Multiplayer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Multiplayer-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BBA6477CD7E2D6900C788BB9526FB2CD /* Frameworks */ = {
+		9061C9E1491EB6AB69BC8AB55B1AFE4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFCFEBD55B3AD306D0D6EC1383051407 /* Foundation.framework in Frameworks */,
+				9429A7681DF19F3C290C036E433FD47F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		003CD625C23395C826B1769B9EAC8139 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2597D7C0300C1D6CDE447651FE861967 /* Pods-Multiplayer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		0889781F3B546C0703D907794787D4A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +68,14 @@
 			path = JCore;
 			sourceTree = "<group>";
 		};
+		0E960C30F75E4C40FE6B807A4A4A0AF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AEC21982141F47908E908695FBDF688 /* Pods_Multiplayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		15D461BB3376D09F0C3088DCDF47CBA8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,30 +85,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		16C9C527A2EFA0E9CEDCDB8F7BB098CC /* Products */ = {
+		2597D7C0300C1D6CDE447651FE861967 /* Pods-Multiplayer */ = {
 			isa = PBXGroup;
 			children = (
-				015811495EE549EA5DF1700D73DFD7BC /* Pods_WuziQiGame.framework */,
+				1B54FA78022FA960E931C9E555E2FCBA /* Info.plist */,
+				100DC70C477D875D95B4DEC02B7CB741 /* Pods-Multiplayer.modulemap */,
+				B5D96A0AEC6E8134BC3270442798E2E6 /* Pods-Multiplayer-acknowledgements.markdown */,
+				F2A7E6CF15F85B60530B9B223DFD0FED /* Pods-Multiplayer-acknowledgements.plist */,
+				5D2E6542C2CB56DDC53AB5E6981E6F9E /* Pods-Multiplayer-dummy.m */,
+				9E2641FC7E8500BCFA22F621964D002F /* Pods-Multiplayer-frameworks.sh */,
+				F711E0AA9B85E8FA58544FA8FA1CB07B /* Pods-Multiplayer-resources.sh */,
+				0619D2C1F2EBC07BF1D735664BC78029 /* Pods-Multiplayer-umbrella.h */,
+				813687983CF5A4C18A2EA0081EE286E3 /* Pods-Multiplayer.debug.xcconfig */,
+				502985161FCAF7733E868D5969EB8184 /* Pods-Multiplayer.release.xcconfig */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2C96335E0DBE0D3BBD47176EB1E664C5 /* Pods-WuziQiGame */ = {
-			isa = PBXGroup;
-			children = (
-				8C5C20A5349238DFC2C0B8C39B2EE22A /* Info.plist */,
-				C38D6298FFA4A4235B27E2C4AFC0A2DF /* Pods-WuziQiGame.modulemap */,
-				6E48184355409AE6BD707AD569E35122 /* Pods-WuziQiGame-acknowledgements.markdown */,
-				2A0687CA214DEC58ED1B0E01D14FFF99 /* Pods-WuziQiGame-acknowledgements.plist */,
-				3DC1670052BE0AF4B5A262CB92E54D22 /* Pods-WuziQiGame-dummy.m */,
-				C9A388F816544A43D6895A850A912228 /* Pods-WuziQiGame-frameworks.sh */,
-				C59BBA12601440AF6F5789755405A81F /* Pods-WuziQiGame-resources.sh */,
-				98AE0BDB420C189F086C378DB613A9DD /* Pods-WuziQiGame-umbrella.h */,
-				7F25DD4EE9E272ADC6593C3E753556BA /* Pods-WuziQiGame.debug.xcconfig */,
-				424CA2A64F61BD0482CBA72570A0BC7F /* Pods-WuziQiGame.release.xcconfig */,
-			);
-			name = "Pods-WuziQiGame";
-			path = "Target Support Files/Pods-WuziQiGame";
+			name = "Pods-Multiplayer";
+			path = "Target Support Files/Pods-Multiplayer";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -101,8 +109,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				15D461BB3376D09F0C3088DCDF47CBA8 /* Pods */,
-				16C9C527A2EFA0E9CEDCDB8F7BB098CC /* Products */,
-				C4CFB536A8C85B3DD14296CCE3E2B3BD /* Targets Support Files */,
+				0E960C30F75E4C40FE6B807A4A4A0AF2 /* Products */,
+				003CD625C23395C826B1769B9EAC8139 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,14 +120,6 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C4CFB536A8C85B3DD14296CCE3E2B3BD /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2C96335E0DBE0D3BBD47176EB1E664C5 /* Pods-WuziQiGame */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -151,32 +151,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A426B2A3D3A41BF33BBE407BB4EB2704 /* Headers */ = {
+		597F7527E1C8028A31D30F46D1AE1F1E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E53A285666C98D2978621A969076BC8 /* Pods-WuziQiGame-umbrella.h in Headers */,
+				5D06B0F6669C5308EE374CAA15DCE164 /* Pods-Multiplayer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		FBEDFD6E1E89D3EF44441E092751F09D /* Pods-WuziQiGame */ = {
+		C97FCFA96955578A0167D0DDD3CB00AB /* Pods-Multiplayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A1CBEF9E1E10FD2E2B15E41CCE77D99 /* Build configuration list for PBXNativeTarget "Pods-WuziQiGame" */;
+			buildConfigurationList = 0145FC455ACB17E49ABBFC555E16B4B7 /* Build configuration list for PBXNativeTarget "Pods-Multiplayer" */;
 			buildPhases = (
-				657B08B3DD9FEDB5983D8402B6BA0F55 /* Sources */,
-				BBA6477CD7E2D6900C788BB9526FB2CD /* Frameworks */,
-				A426B2A3D3A41BF33BBE407BB4EB2704 /* Headers */,
+				5EF9DC99AEE3AC3F44457B08B8A473D4 /* Sources */,
+				9061C9E1491EB6AB69BC8AB55B1AFE4A /* Frameworks */,
+				597F7527E1C8028A31D30F46D1AE1F1E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-WuziQiGame";
-			productName = "Pods-WuziQiGame";
-			productReference = 015811495EE549EA5DF1700D73DFD7BC /* Pods_WuziQiGame.framework */;
+			name = "Pods-Multiplayer";
+			productName = "Pods-Multiplayer";
+			productReference = 6AEC21982141F47908E908695FBDF688 /* Pods_Multiplayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -196,21 +196,21 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 16C9C527A2EFA0E9CEDCDB8F7BB098CC /* Products */;
+			productRefGroup = 0E960C30F75E4C40FE6B807A4A4A0AF2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBEDFD6E1E89D3EF44441E092751F09D /* Pods-WuziQiGame */,
+				C97FCFA96955578A0167D0DDD3CB00AB /* Pods-Multiplayer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		657B08B3DD9FEDB5983D8402B6BA0F55 /* Sources */ = {
+		5EF9DC99AEE3AC3F44457B08B8A473D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D0156AD562EBA5DB77D568FDEC5C959 /* Pods-WuziQiGame-dummy.m in Sources */,
+				D90B5C798C193F65015F635DF09B2012 /* Pods-Multiplayer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,45 +265,9 @@
 			};
 			name = Debug;
 		};
-		804291281A5961996FCD4194930F13CF /* Debug */ = {
+		B024C5294A6F47B74B6669C0F5126682 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F25DD4EE9E272ADC6593C3E753556BA /* Pods-WuziQiGame.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WuziQiGame/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WuziQiGame/Pods-WuziQiGame.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WuziQiGame;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9D54CE87EA81667A6C8D71BA79374A50 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 424CA2A64F61BD0482CBA72570A0BC7F /* Pods-WuziQiGame.release.xcconfig */;
+			baseConfigurationReference = 502985161FCAF7733E868D5969EB8184 /* Pods-Multiplayer.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -317,18 +281,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WuziQiGame/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Multiplayer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WuziQiGame/Pods-WuziQiGame.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Multiplayer/Pods-Multiplayer.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WuziQiGame;
+				PRODUCT_NAME = Pods_Multiplayer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -381,23 +345,59 @@
 			};
 			name = Release;
 		};
+		D03B425A64A71C84A28493752F1C2D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 813687983CF5A4C18A2EA0081EE286E3 /* Pods-Multiplayer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Multiplayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Multiplayer/Pods-Multiplayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Multiplayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0145FC455ACB17E49ABBFC555E16B4B7 /* Build configuration list for PBXNativeTarget "Pods-Multiplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03B425A64A71C84A28493752F1C2D44 /* Debug */,
+				B024C5294A6F47B74B6669C0F5126682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				643C76AA582046977B7877822ED7A258 /* Debug */,
 				C03B8870130C98D1B02B59D003687524 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6A1CBEF9E1E10FD2E2B15E41CCE77D99 /* Build configuration list for PBXNativeTarget "Pods-WuziQiGame" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				804291281A5961996FCD4194930F13CF /* Debug */,
-				9D54CE87EA81667A6C8D71BA79374A50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
